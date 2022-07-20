@@ -1,0 +1,6 @@
+CREATE TABLE agenda (
+	codigo BIGINT(20) PRIMARY KEY AUTO_INCREMENT,
+	nome VARCHAR(50) NOT NULL,
+	data_nascimento date,
+	telefone VARCHAR(14)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
